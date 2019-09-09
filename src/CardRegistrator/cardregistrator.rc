@@ -1,0 +1,30 @@
+IDI_ICON1               ICON    DISCARDABLE     "cardregistrator.ico"
+
+#include <windows.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",        "Igor Mahov"
+            VALUE "FileDescription",    "Card Registrator"
+            VALUE "FileVersion",        "1.0.0.0\0"
+            VALUE "InternalName",       "Card Registrator"
+            VALUE "LegalCopyright",     "Copyright 2019 Igor Mahov"
+            VALUE "LegalTrademarks1",   "Licensed under GNU GPLv3"
+            VALUE "LegalTrademarks2",   "Licensed under GNU GPLv3"
+            VALUE "OriginalFilename",   "CardRegistrator.exe"
+            VALUE "ProductName",        "Card Registrator"
+            VALUE "ProductVersion",     "1.0.0\0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
